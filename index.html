@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeto 7</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Cadastro de Usuário</h1>    
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="Projeto4.html">Página Principal</a></li>
+                    <li><a href="Projeto4.1.html">Sobre Mim</a></li>
+                    <li><a href="Projeto4.2.html">Meus Projetos</a></li>
+                    <li><a href="Projeto4.3.html">Contato</a></li>
+                </ul>
+            </nav>
+            <h2>Formulário de Cadastro</h2>
+            <form action="/cadastro" name="cadastro" method="post">
+                <label for="nomecompleto">Nome:</label><br>
+                <input type="text" id="nomecompleto" required><br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" required><br><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" required><br><br>
+                <label for="genero">Gênero:</label><br>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select><br><br>
+                <h3>Interesses:</h3>
+                <input type="checkbox" name="programação">Programação<br>
+                <input type="checkbox" name="design">Design<br>
+                <input type="checkbox" name="música">Música<br>
+                <h3>Biografia:</h3>
+                <textarea name="biografia" id="biografia" cols="55" rows="4"></textarea> <br>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+
+    <footer>
+        <h4>© 2025 Meu Site Pessoal</h4>
+    </footer>
+</html>
